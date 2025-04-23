@@ -6,13 +6,45 @@
     <meta name="description" content="Eclipse - Market Capture Strategies">
     <link rel="stylesheet" href="marketStyle.css">
     <title>Eclipse - Market Strategy</title>
+    <style>
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--light-color);
+            text-decoration: none;
+            transition: color 0.3s ease, transform 0.3s ease;
+            padding: 0.5rem 1rem;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+
+        .logo a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .logo a:hover {
+            color: var(--secondary-color);
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar slide-in-top">
-        <div class="logo">Eclipse</div>
+        <div class="logo"><a href="../index.html">Eclipse</a></div>
         <ul class="nav-links">
             <li><a href="../index.html">Home</a></li>
-            <li><a href="#strategy">Strategy</a></li>
+            <li><a href="../Vision/vision.html">Vision</a></li>
+            <li><a href="../Problem/problem.html">Problem</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
