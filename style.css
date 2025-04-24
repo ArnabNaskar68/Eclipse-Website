@@ -3,7 +3,6 @@
     --secondary-color:rgb(79, 76, 76);
     --text-color:white;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -136,12 +135,12 @@ body {
     animation: fadeInLeft 1s ease-out;
 }
 
-.fade-in-right {
-    animation: fadeInRight 1s ease-out;
+.fade-in-left {
+    animation: fadeInLeft 1s ease-out;
 }
 
 .bounce-in {
-    animation: bounceIn 1s cubic-bezier(0.36, 0, 0.66, 1.54);
+    animation: fadeInLeft 1s ease-out;
 }
 
 .slide-in-left {
